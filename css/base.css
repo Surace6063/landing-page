@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+
+/* css veriables */
+:root {
+  --ink: #14181c;
+  --teal: #0f766e;
+  --teal-dark: #0a5a54;
+  --teal-light: #e6f7f4;
+  --accent: #ff5f3d;
+  --accent-light: #ffe8e1;
+  --bg: #faf9f5;
+  --surface: #ffffff;
+  --muted: #6b7280;
+  --border: #e9e7e0;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --shadow-sm: 0 2px 8px rgba(20, 24, 28, 0.06);
+  --shadow-md: 0 12px 32px rgba(20, 24, 28, 0.1);
+  --shadow-lg: 0 30px 60px -20px rgba(20, 24, 28, 0.25);
+}
+
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+button {
+  font-family: inherit;
+}
