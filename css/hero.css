@@ -1,0 +1,53 @@
+.hero{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eyebrow{
+    display: inline-block;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--teal-dark);
+    background-color: var(--teal-light);
+    border: 1px solid #cdeee8;
+    padding: 7px 14px;
+    border-radius: 999px;
+    margin-bottom: 22px;
+}
+
+.hero-info h1{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 0.98;
+    margin-bottom: 22px;
+}
+
+.hero-info h1 .line{
+    display: block;
+}
+
+.hero-info h1 .line-outline{
+    -webkit-text-stroke: 1.5px var(--ink);
+    background-color: transparent;
+}
+
+.hero-info h1 .line-accent{
+    color: var(--teal);
+}
+
+.hero-info p{
+    color: var(--muted);
+    font-size: 17px;
+    margin-bottom: 32px;
+    max-width: 430px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 14px;
+    margin-bottom: 40px;
+}

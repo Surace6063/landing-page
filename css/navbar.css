@@ -20,6 +20,16 @@
     box-shadow: 0px 8px 24px rgba(20, 24, 28, 0.05);
 }
 
+.logo-icon{
+    background-color: var(--ink);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .brand-name{
     font-size: 20px;
@@ -56,4 +66,66 @@
 .nav-links .active{
     background-color: var(--ink);
     color: white;
+}
+
+.nav-actions{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.icon-btn{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #4b5158;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.icon-btn:hover{
+    background-color: var(--bg);
+    color: var(--ink);
+}
+
+.icon-btn .badge{
+   background-color: var(--accent); 
+   color: white;
+   font-size: 10px;
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 2px; 
+   right: 2px;
+}
+
+.nav-toggle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    color: var(--ink);
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+}
+
+
+@media (max-width: 900px){
+    .nav-links{
+        display: none;
+    }
+
+    .nav-toggle{
+        display: inline-block;
+    }
 }

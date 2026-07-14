@@ -67,3 +67,43 @@ button {
 
 
 
+.container{
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 0px 20px;
+}
+
+.btn{
+  border: none;
+  display: inline-block;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 999px;
+  transition: all 0.15s ease;
+}
+
+.btn-primary{
+  background-color: var(--ink);
+  color: white;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover{
+  background-color: var(--teal-dark);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-outline{
+   background-color: transparent;
+   color: var(--ink);
+   border: 1.5px solid var(--border);
+}
+
+.btn-outline:hover{
+  border-color: var(--ink);
+  background-color: white;
+}
