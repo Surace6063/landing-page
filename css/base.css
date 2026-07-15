@@ -107,3 +107,14 @@ button {
   border-color: var(--ink);
   background-color: white;
 }
+
+.section-head h2{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section-head p{
+  color: var(--muted);
+  font-size: 15px;
+  margin-top: 6px;
+}

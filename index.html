@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/trending.css" />
 
     <!-- font awesome icons -->
     <link
@@ -120,12 +121,111 @@
       </div>
 
       <!-- right -->
-      <div>right</div>
+      <div class="hero-visual">
+        <div class="hero-image-frame">
+          <img src="images/hero-img.jpg" alt="hero-image" />
+          <div class="badge-discount">
+            <strong>-30%</strong>
+            <span>THIS WEEK</span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- trending section -->
-    <section class="container">
-      <h3>Trending</h3>
+    <section class="container trending">
+      <div class="section-head">
+        <div>
+          <h2>Trending Now</h2>
+          <p>Handpicked styles everyone's adding to cart this week</p>
+        </div>
+        <div class="filter-chips">
+          <button class="filter-chip active">All</button>
+          <button class="filter-chip">Hoddie</button>
+          <button class="filter-chip">Joggers</button>
+          <button class="filter-chip">Sweatsgirt</button>
+        </div>
+      </div>
+
+      <!-- product-grid -->
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <span class="product-tag">New</span>
+            <img src="images/1.jpeg" alt="Classic Heather Gray Hoodie" />
+            <div class="wishlist-btn">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+            <button class="product-quickadd">
+              <i class="fa fa-shopping-bag" aria-hidden="true"></i> Quick Add
+            </button>
+          </div>
+          <div class="product-info">
+            <div>
+              <div class="product-name">Classic Heather Gray</div>
+              <div class="product-category">Hoodie</div>
+              <div class="product-rating">
+                <span class="stars"
+                  ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                  ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                  ><i class="fa fa-star-o"></i
+                ></span>
+                (128)
+              </div>
+            </div>
+            <div class="product-price">$376.00</div>
+          </div>
+        </div>
+
+         <div class="product-card">
+          <div class="product-image">
+            <img src="images/2.jpeg" alt="Classic Comfort Fit Joggers" />
+            <div class="wishlist-btn"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+            <button class="product-quickadd"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Quick Add</button>
+          </div>
+          <div class="product-info">
+            <div>
+              <div class="product-name">Classic Comfort Fit Joggers</div>
+              <div class="product-category">Joggers</div>
+              <div class="product-rating"><span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> (86)</div>
+            </div>
+            <div class="product-price">$79.99</div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="product-tag sale">Sale</span>
+            <img src="images/3.jpeg" alt="Classic Grey Hooded Sweatshirt" />
+            <div class="wishlist-btn"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+            <button class="product-quickadd"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Quick Add</button>
+          </div>
+          <div class="product-info">
+            <div>
+              <div class="product-name">Classic Grey Hooded</div>
+              <div class="product-category">Sweatshirt</div>
+              <div class="product-rating"><span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span> (54)</div>
+            </div>
+            <div class="product-price"><span class="old-price">$420</span>$376.00</div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/4.jpeg" alt="Classic Black Hooded Sweatshirt" />
+            <div class="wishlist-btn"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+            <button class="product-quickadd"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Quick Add</button>
+          </div>
+          <div class="product-info">
+            <div>
+              <div class="product-name">Classic Black Hooded</div>
+              <div class="product-category">Sweatshirt</div>
+              <div class="product-rating"><span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></span> (203)</div>
+            </div>
+            <div class="product-price">$99.00</div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
